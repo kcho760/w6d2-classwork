@@ -16,7 +16,7 @@ class SQLObject
   end
 
   def self.table_name
-    self.table_name
+    @self = "#{self}"
   end
 
   def self.all
